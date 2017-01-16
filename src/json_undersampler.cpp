@@ -17,8 +17,6 @@ You should have received a copy of the GNU General Public License
 along with json_distance. If not, see <http://www.gnu.org/licenses/>.
 ***************************************************************************/
 
-#define _CRT_SECURE_NO_WARNINGS
-
 #include <fstream>
 #include <string>
 
@@ -98,7 +96,7 @@ int main(int argc, char** argv) {
   jsoncons::json output_json;
 
   if (input_json.is_array()) {
-    output_json = jsoncons::json(jsoncons::json::an_array);
+    output_json = jsoncons::json::array();
     for (size_t i = 0; i < input_json.size(); i++) {
       if (i % undersampling) continue;
       output_json.add(input_json[i]);
