@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="json_undersampler.cpp" />
+    <ClCompile Include="..\src\json_undersampler.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C2DFD04D-737B-443E-A837-A4C54C44AFB2}</ProjectGuid>
@@ -73,22 +73,22 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)\bin\</OutDir>
-    <IntDir>$(SolutionDir)\obj\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)\obj\</IntDir>
     <IncludePath>$(SolutionDir)\src\jsoncons\src\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)\bin\</OutDir>
-    <IntDir>$(SolutionDir)\obj\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)\obj\</IntDir>
     <IncludePath>$(SolutionDir)\src\jsoncons\src\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)\bin\</OutDir>
-    <IntDir>$(SolutionDir)\obj\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)\obj\</IntDir>
     <IncludePath>$(SolutionDir)\src\jsoncons\src\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)\bin\</OutDir>
-    <IntDir>$(SolutionDir)\obj\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)\obj\</IntDir>
     <IncludePath>$(SolutionDir)\src\jsoncons\src\;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

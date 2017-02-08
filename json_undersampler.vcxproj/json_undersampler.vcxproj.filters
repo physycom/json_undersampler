@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="json_undersampler.cpp">
+    <ClCompile Include="..\src\json_undersampler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

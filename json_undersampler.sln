@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "json_undersampler", "src\json_undersampler.vcxproj", "{C2DFD04D-737B-443E-A837-A4C54C44AFB2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "json_undersampler", "json_undersampler.vcxproj\json_undersampler.vcxproj", "{C2DFD04D-737B-443E-A837-A4C54C44AFB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
