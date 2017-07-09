@@ -27,7 +27,7 @@ This tool has been written to extract a subsample of an original set of data, un
 ### Installation
 **CMake** and a **C++11** compatible compiler are required. To build the executable, clone the repo and then type  
 ```
-mkdir build ; cd build ; cmake .. ; cmake --build . --target install
+mkdir build ; cd build ; cmake .. ; cmake --build .
 ```
 With CMake you can also deploy projects for the most common IDEs.  
 Contains [jsoncons](https://github.com/danielaparker/jsoncons) as a git submodule.
@@ -39,5 +39,5 @@ json_undersampler.exe -i input.json -o output.json -u undersampling
 ```
 where `input.json` must be an existing and valid .json file, and with -u you should give and integer undersampling factor.
 
-More details can be found in our technical description of the file formats (document still not published)
+More details can be found in our technical description of the file formats published [here](https://github.com/physycom/file_format_specifications/blob/master/formati_file.md)
 
